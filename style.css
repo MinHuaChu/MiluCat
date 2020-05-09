@@ -6,7 +6,8 @@ div{
 p:before {
     content: "";
     display: block;
-    background: url("03.jpg") no-repeat;
+    background: url("03.png") no-repeat;
+    background-size: 100%;
     width: 20px;
     height: 20px;
     float: left;
