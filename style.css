@@ -1,15 +1,239 @@
-div{
-    width: 100px;
-    height: 100px;
-    background-color: pink;
-}
-p:before {
-    content: "";
+* {
+    border: 0px solid black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-image: url(first.png);
+    height: 935px;
+    width: 1440px;
+  }
+  
+  header nav ul {
+    text-align: right;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 50px 40px 0 0;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+    -webkit-transition-property: width;
+    transition-property: width;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-delay: 2s;
+            transition-delay: 2s;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+  }
+  
+  #aaa {
+    width: 1440px;
+    height: 740px;
+    background-color: #cbf5ff;
+  }
+  
+  #aaa #bbb {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 95px;
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  #aaa #bbb .ccc {
+    padding-top: 210px;
+  }
+  
+  #aaa #bbb .ccc p {
+    font-size: 20px;
+    line-height: 2;
+    width: 500px;
+    height: 300px;
+    color: black;
+    padding-top: 100px;
+  }
+  
+  #aaa #bbb .ccc img {
+    width: 500px;
+  }
+  
+  #ddd {
+    width: 1440px;
+    height: 740px;
+    background-color: #effdff;
+  }
+  
+  #ddd #eee {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 95px;
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  #ddd #eee .fff {
+    padding-top: 210px;
+  }
+  
+  #ddd #eee .fff p {
+    font-size: 20px;
+    width: 500px;
+    height: 300px;
+    color: black;
+    padding-top: 100px;
+    line-height: 2;
+  }
+  
+  #ddd #eee .fff img {
+    width: 500px;
+  }
+  
+  #ggg {
+    width: 1440px;
+    height: 740px;
+    background-color: #cbf5ff;
+  }
+  
+  #jjj {
+    height: 740px;
+    background-image: url(second.jpg);
+  }
+  
+  #jjj h1 {
     display: block;
-    background: url("03.png") no-repeat;
-    background-size: 100%;
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 0 6px 0 0;
-}
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    width: 300px;
+  }
+  
+  #jjj h1 img {
+    width: 40px;
+  }
+  
+  #jjj p {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #jjj #lll {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 95px;
+    width: 1100px;
+    margin: 100px auto 0 auto;
+  }
+  
+  #jjj #lll .mmm {
+    height: 300px;
+  }
+  
+  #jjj #lll .mmm h3 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #jjj #lll .mmm p {
+    margin-top: 30px;
+  }
+  
+  #nnn {
+    height: 740px;
+    background-image: url(2.jpg);
+  }
+  
+  #nnn h1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+  }
+  
+  #nnn p {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #nnn #ppp {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    width: 1300px;
+    margin: 100px auto 0 auto;
+  }
+  
+  #nnn #ppp a {
+    text-align: center;
+  }
+  
+  #nnn #ppp a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #nnn #ppp a:visited {
+    color: black;
+  }
+  
+  #nnn #ppp .qqq {
+    height: 300px;
+  }
+  
+  #nnn #ppp .qqq img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #nnn #ppp .qqq .rrr h3 {
+    margin-top: 20px;
+  }
+  
+  #nnn #ppp .qqq .rrr p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .top {
+    position: fixed;
+    bottom: 11%;
+    right: 3%;
+  }
+  
+  footer {
+    height: 70px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 30px;
+    font-size: 18px;
+    background-color: #4797b1;
+  }
