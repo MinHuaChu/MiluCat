@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
 }
 
 header {
@@ -126,10 +127,6 @@ header nav ul li a:hover {
   width: 300px;
 }
 
-#p4 h1 img {
-  width: 40px;
-}
-
 #p4 p {
   display: block;
   margin: 0 auto;
@@ -142,7 +139,7 @@ header nav ul li a:hover {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 95px;
+  grid-gap: 80px;
   width: 1100px;
   margin: 100px auto 0 auto;
 }
@@ -152,12 +149,12 @@ header nav ul li a:hover {
 }
 
 #p4 #lll .mmm h3 {
-  margin-top: 30px;
-  text-align: center;
+  width: 190px;
 }
 
 #p4 #lll .mmm p {
   margin-top: 30px;
+  text-align: left;
 }
 
 #p5 {
