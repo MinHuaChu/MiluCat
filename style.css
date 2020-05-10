@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
 }
 
 header {
@@ -135,26 +134,48 @@ header nav ul li a:hover {
 }
 
 #p4 #lll {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 1100px;
   margin: 100px auto 0 auto;
 }
 
 #p4 #lll .mmm {
   height: 300px;
+  width: 300px;
 }
 
 #p4 #lll .mmm h3 {
-  width: 190px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 25px;
+  width: 250px;
+  height: 40px;
 }
 
 #p4 #lll .mmm p {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: left;
+  margin-left: 48px;
+  width: 210px;
+}
+
+#p4 #lll .mmm:before {
+  content: "";
+  display: block;
+  background: url("img/03.png") no-repeat;
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-size: 100%;
 }
 
 #p5 {
