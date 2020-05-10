@@ -6,7 +6,7 @@
 }
 
 header {
-  background-image: url(first.png);
+  background-image: url(img/first.png);
   height: 935px;
   width: 1440px;
 }
@@ -40,13 +40,13 @@ header nav ul li a:hover {
   font-size: 20px;
 }
 
-#aaa {
+#p1 {
   width: 1440px;
   height: 740px;
   background-color: #cbf5ff;
 }
 
-#aaa #bbb {
+#p1 #bbb {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -56,11 +56,11 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 
-#aaa #bbb .ccc {
+#p1 #bbb .ccc {
   padding-top: 210px;
 }
 
-#aaa #bbb .ccc p {
+#p1 #bbb .ccc p {
   font-size: 20px;
   line-height: 2;
   width: 500px;
@@ -69,17 +69,17 @@ header nav ul li a:hover {
   padding-top: 100px;
 }
 
-#aaa #bbb .ccc img {
+#p1 #bbb .ccc img {
   width: 500px;
 }
 
-#ddd {
+#p2 {
   width: 1440px;
   height: 740px;
   background-color: #effdff;
 }
 
-#ddd #eee {
+#p2 #eee {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -89,11 +89,11 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 
-#ddd #eee .fff {
+#p2 #eee .fff {
   padding-top: 210px;
 }
 
-#ddd #eee .fff p {
+#p2 #eee .fff p {
   font-size: 20px;
   width: 500px;
   height: 300px;
@@ -102,22 +102,22 @@ header nav ul li a:hover {
   line-height: 2;
 }
 
-#ddd #eee .fff img {
+#p2 #eee .fff img {
   width: 500px;
 }
 
-#ggg {
+#p3 {
   width: 1440px;
   height: 740px;
   background-color: #cbf5ff;
 }
 
-#jjj {
+#p4 {
   height: 740px;
-  background-image: url(second.jpg);
+  background-image: url(img/second.jpg);
 }
 
-#jjj h1 {
+#p4 h1 {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -126,18 +126,18 @@ header nav ul li a:hover {
   width: 300px;
 }
 
-#jjj h1 img {
+#p4 h1 img {
   width: 40px;
 }
 
-#jjj p {
+#p4 p {
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
 
-#jjj #lll {
+#p4 #lll {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -147,25 +147,25 @@ header nav ul li a:hover {
   margin: 100px auto 0 auto;
 }
 
-#jjj #lll .mmm {
+#p4 #lll .mmm {
   height: 300px;
 }
 
-#jjj #lll .mmm h3 {
+#p4 #lll .mmm h3 {
   margin-top: 30px;
   text-align: center;
 }
 
-#jjj #lll .mmm p {
+#p4 #lll .mmm p {
   margin-top: 30px;
 }
 
-#nnn {
+#p5 {
   height: 740px;
   background-image: url(2.jpg);
 }
 
-#nnn h1 {
+#p5 h1 {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -173,14 +173,14 @@ header nav ul li a:hover {
   font-size: 40px;
 }
 
-#nnn p {
+#p5 p {
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
 }
 
-#nnn #ppp {
+#p5 #ppp {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -190,34 +190,34 @@ header nav ul li a:hover {
   margin: 100px auto 0 auto;
 }
 
-#nnn #ppp a {
+#p5 #ppp a {
   text-align: center;
 }
 
-#nnn #ppp a:link {
+#p5 #ppp a:link {
   text-decoration: none;
   color: black;
 }
 
-#nnn #ppp a:visited {
+#p5 #ppp a:visited {
   color: black;
 }
 
-#nnn #ppp .qqq {
+#p5 #ppp .qqq {
   height: 300px;
 }
 
-#nnn #ppp .qqq img {
+#p5 #ppp .qqq img {
   width: 70%;
   display: block;
   margin: 0 auto;
 }
 
-#nnn #ppp .qqq .rrr h3 {
+#p5 #ppp .qqq .rrr h3 {
   margin-top: 20px;
 }
 
-#nnn #ppp .qqq .rrr p {
+#p5 #ppp .qqq .rrr p {
   text-align: center;
   margin-top: 10px;
   font-size: 16px;
