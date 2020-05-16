@@ -1,8 +1,10 @@
+@charset "UTF-8";
 * {
   border: 0px solid black;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-family: '娃娃體-繁';
 }
 
 header {
@@ -13,17 +15,18 @@ header {
 
 header nav ul {
   text-align: right;
+  margin-right: 40px;
 }
 
 header nav ul li {
   display: inline-block;
-  margin: 50px 40px 0 0;
+  margin: 50px 20px 0 0;
 }
 
 header nav ul li a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   -webkit-transition-property: width;
@@ -40,6 +43,21 @@ header nav ul li a:hover {
   font-size: 20px;
 }
 
+header h1 {
+  text-align: center;
+  margin-top: 140px;
+  font-size: 130px;
+  color: #ecb76f;
+  text-shadow: 4px 3px 2px #d4924b;
+}
+
+header h4 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #d4924b;
+}
+
 #p1 {
   width: 1440px;
   height: 740px;
@@ -47,17 +65,22 @@ header nav ul li a:hover {
 }
 
 #p1 #bbb {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 1100px;
   margin: 0 auto;
 }
 
 #p1 #bbb .ccc {
-  padding-top: 210px;
+  margin-top: 210px;
 }
 
 #p1 #bbb .ccc p {
@@ -80,11 +103,16 @@ header nav ul li a:hover {
 }
 
 #p2 #eee {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 1100px;
   margin: 0 auto;
 }
