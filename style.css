@@ -135,12 +135,12 @@ header h4 {
 #p3 {
   width: 1440px;
   height: 740px;
-  background-color: #cbf5ff;
+  background-image: url(img/second.jpg);
 }
 
 #p4 {
-  height: 740px;
-  background-image: url(img/second.jpg);
+  height: 1100px;
+  background-color: #cbf5ff;
 }
 
 #p4 h1 {
