@@ -1,5 +1,5 @@
 *{
-    border: 0px solid black;
+    // border: 1px solid black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +30,7 @@ header{
                 a:hover{
                     text-decoration: none;
                     color: orange;
-                    font-size: 20px;
+                    // font-size: 25px;
                 }
             }
         }
@@ -65,12 +65,12 @@ header{
         .ccc{
             margin-top: 210px;
             p{
-                font-size: 20px;
+                font-size: 27px;
                 line-height: 2;
                 width: 500px;
                 height: 300px;
                 color: black;
-                padding-top: 100px;
+                padding-top: 75px;
             }
             img{
                 width: 500px;
@@ -93,12 +93,12 @@ header{
         .fff{
             padding-top: 210px;
             p{
-                font-size: 20px;
+                font-size: 27px;
+                line-height: 2;
                 width: 500px;
                 height: 300px;
                 color: black;
-                padding-top: 100px;
-                line-height: 2;
+                padding-top: 50px;
             }
             img{
                 width: 500px;
