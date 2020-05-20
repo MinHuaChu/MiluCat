@@ -1,5 +1,5 @@
 *{
-    border: 1px solid black;
+    // border: 1px solid black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,6 +74,7 @@ header{
             }
             img{
                 width: 500px;
+                border-radius: 10px;
             }
         }
     }
@@ -102,6 +103,7 @@ header{
             }
             img{
                 width: 500px;
+                border-radius: 10px;
             }
         }
     }
@@ -120,17 +122,31 @@ header{
     height: 1100px;
     // background-image: url(img/second.jpg);
      background-color:#cbf5ff;
+     padding-top: 90px;
+     h1{
+        display: block;
+        margin: 0 auto 30px auto;
+        text-align: center;
+        font-size: 40px;
+     }
      #tomy{
         display: flex;
-        background-color: cyan;
-        width: 1000px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        // background-color: cyan;
+        width: 1200px;
         margin: 0 auto;
         
         .xxx{
             display: flex;
             flex-direction: row;
-            width: 300px;
-            margin-top: 10px;
+            border-radius: 10px;
+            width: 460px;
+            margin: 40px 10px 0 10px;
+            background-color: skyblue;
+            img{
+                border-radius: 10px 0 0 10px;
+            }
             
         }
      }
@@ -179,6 +195,7 @@ header{
                 width: 70%;
                 display: block;
                 margin: 0 auto;
+                border-radius: 10px;
             }
             .rrr{
                 
