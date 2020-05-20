@@ -140,6 +140,19 @@ header h4 {
   background-image: url(img/second.jpg);
 }
 
+#p3 #fof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#p3 #fof .gog img {
+  width: 80%;
+  height: 250px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 #p4 {
   height: 1100px;
   background-color: #cbf5ff;
