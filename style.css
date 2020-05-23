@@ -136,12 +136,28 @@ header h4 {
 
 #p3 {
   width: 1440px;
-  height: 740px;
-  background-image: url(img/bg/second.jpg);
+  background-color: #effdff;
 }
 
-#p3 .card-group {
-  width: 500px;
+#p3 h1 {
+  display: block;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  font-size: 40px;
+  font-size: 60px;
+}
+
+#p3 .coco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 900px;
+  margin: 0;
 }
 
 #p4 {
@@ -174,6 +190,7 @@ header h4 {
 
 #p4 #tomy .card {
   margin: 0 0 60px 30px;
+  padding: 0;
 }
 
 #p4 #tomy .card h2 {

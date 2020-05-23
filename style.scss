@@ -112,10 +112,24 @@ header{
 // 繪本與週邊
 #p3{
     width: 1440px;
-    height: 740px;
-    background-image: url(img/bg/second.jpg);
-    .card-group{
-        width: 500px;
+    // background-image: url(img/bg/second.jpg);
+    background-color: #effdff;
+    h1{
+        display: block;
+        margin: 0 auto 30px auto;
+        text-align: center;
+        font-size: 40px;
+        font-size: 60px;
+     }
+    .coco{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 900px;
+        margin: 0;
+        .card{
+
+        }
     }
     
 }
@@ -138,11 +152,11 @@ header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        // background-color: cyan;
         width: 1200px;
         margin: 100px auto 0 auto;
         .card{
             margin:0 0 60px 30px;
+            padding: 0;
             
             h2{
                 font-size: 25px;
