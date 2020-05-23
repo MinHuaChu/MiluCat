@@ -196,6 +196,14 @@ header h4 {
   border-radius: 10px 0 0 10px;
 }
 
+#p4 #tomy .xxx .xx {
+  padding: 40px 28px;
+}
+
+#p4 #tomy .xxx .xx p {
+  margin-top: 4px;
+}
+
 #p5 {
   height: 740px;
   background-image: url(img/2.jpg);
