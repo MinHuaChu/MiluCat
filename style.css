@@ -7,6 +7,7 @@
 }
 
 header {
+  background-image: url(img/bg/first.png);
   height: 935px;
   width: 1440px;
 }
@@ -136,23 +137,15 @@ header h4 {
 #p3 {
   width: 1440px;
   height: 740px;
-  background-image: url(img/second.jpg);
+  background-image: url(img/bg/second.jpg);
 }
 
-#p3 #fof {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#p3 #fof .gog img {
-  width: 80%;
-  height: 250px;
-  -o-object-fit: fill;
-     object-fit: fill;
+#p3 .card-group {
+  width: 500px;
 }
 
 #p4 {
+  width: 1440px;
   height: 1100px;
   background-color: #cbf5ff;
   padding-top: 90px;
@@ -163,6 +156,7 @@ header h4 {
   margin: 0 auto 30px auto;
   text-align: center;
   font-size: 40px;
+  font-size: 60px;
 }
 
 #p4 #tomy {
@@ -175,31 +169,24 @@ header h4 {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 
-#p4 #tomy .xxx {
-  border-radius: 10px;
-  width: 220px;
-  margin: 40px 20px 0 10px;
-  background-color: skyblue;
+#p4 #tomy .card {
+  margin: 0 0 60px 30px;
 }
 
-#p4 #tomy .xxx img {
-  border-radius: 10px 10px 0 0;
+#p4 #tomy .card h2 {
+  font-size: 25px;
 }
 
-#p4 #tomy .xxx .xx {
-  padding: 20px 20px;
-}
-
-#p4 #tomy .xxx .xx p {
-  margin-top: 4px;
+#p4 #tomy .card p {
+  font-size: 17px;
 }
 
 #p5 {
   height: 740px;
-  background-image: url(img/2.jpg);
+  background-image: url(img/bg/2.jpg);
 }
 
 #p5 h1 {
@@ -207,7 +194,7 @@ header h4 {
   margin: 0 auto;
   text-align: center;
   padding-top: 100px;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 #p5 p {
