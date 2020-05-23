@@ -112,7 +112,8 @@ header{
 // 繪本與週邊
 #p3{
     width: 1440px;
-    // background-image: url(img/bg/second.jpg);
+    height: 1300px;
+    padding-top: 90px;
     background-color: #effdff;
     h1{
         display: block;
@@ -126,9 +127,10 @@ header{
         flex-wrap: wrap;
         justify-content: space-evenly;
         width: 900px;
-        margin: 0;
+        margin: 100px auto 0 auto;
         .card{
-
+            margin:0 0 60px 30px;
+            padding: 0;
         }
     }
     
