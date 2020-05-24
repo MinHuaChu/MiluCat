@@ -4,6 +4,7 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-family: '娃娃體-繁';
+  cursor: url(img/ml.png), pointer;
 }
 
 header {
@@ -39,6 +40,7 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: none;
   color: orange;
+  cursor: url(img/ch.png), pointer;
 }
 
 header h1 {
@@ -136,7 +138,7 @@ header h4 {
 
 #p3 {
   width: 1440px;
-  height: 1500px;
+  height: 1100px;
   padding-top: 90px;
   background-color: #effdff;
 }
@@ -263,6 +265,10 @@ header h4 {
   border-radius: 10px;
 }
 
+#p5 #ppp .qqq img:hover {
+  cursor: url(img/ch.png), pointer;
+}
+
 #p5 #ppp .qqq .rrr h3 {
   margin-top: 20px;
 }
@@ -280,7 +286,8 @@ header h4 {
 }
 
 footer {
-  height: 70px;
+  height: 100px;
+  width: 1440px;
   text-align: center;
   line-height: 1.5;
   padding-top: 30px;

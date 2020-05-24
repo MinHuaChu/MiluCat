@@ -4,7 +4,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-family: '娃娃體-繁';
+    cursor : url(img/ml.png), pointer;
 }
+
+
 // 頁首
 header{
     background-image: url(img/bg/first.png);
@@ -30,7 +33,7 @@ header{
                 a:hover{
                     text-decoration: none;
                     color: orange;
-                    // font-size: 25px;
+                    cursor : url(img/ch.png), pointer;
                 }
             }
         }
@@ -112,7 +115,7 @@ header{
 // 繪本與週邊
 #p3{
     width: 1440px;
-    height: 1500px;
+    height: 1100px;
     padding-top: 90px;
     background-color: #effdff;
     
@@ -213,6 +216,9 @@ header{
                 margin: 0 auto;
                 border-radius: 10px;
             }
+            img:hover{
+                cursor : url(img/ch.png), pointer;
+            }
             .rrr{
                 
                 h3{
@@ -238,7 +244,7 @@ header{
 }
 
 footer{
-    height: 70px;
+    height: 100px;
     width: 1440px;
     text-align: center;
     line-height: 1.5;
