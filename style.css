@@ -285,6 +285,12 @@ header h4 {
   right: 3%;
 }
 
+.top {
+  position: fixed;
+  bottom: 11%;
+  right: 3%;
+}
+
 footer {
   height: 100px;
   width: 1440px;
